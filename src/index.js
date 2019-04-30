@@ -4,4 +4,4 @@ import App from "./App";
 import Test from "./test";
 import CampusContainer from "./components/CampusContainer";
 
-ReactDOM.render(<CampusContainer />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
