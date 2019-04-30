@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import CampusContainer from "./components/CampusContainer";
-
+//import CampusContainer from "./components/CampusContainer";
+import Test from "./test";
 class App extends Component {
   state = {
     isClicked: false
@@ -9,7 +9,7 @@ class App extends Component {
     console.log(this);
     return (
       <div>
-        <CampusContainer />
+        <Test />
       </div>
     );
   }
