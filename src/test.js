@@ -119,8 +119,8 @@ var Test = createReactClass({
   getTipPosition(area) {
     return { top: `${area.center[1]}px`, left: `${area.center[0]}px` };
   },
-  handlePageChange(page) {
-    this.setState({ currentPage: page });
+  handlePageChange(area) {
+    this.setState({ currentPage: area });
   },
 
   render() {
